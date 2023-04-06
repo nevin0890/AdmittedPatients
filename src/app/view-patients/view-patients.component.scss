@@ -1,0 +1,36 @@
+body {
+    background-color: #0E222E !important;
+    
+}
+
+.card {
+    background-color: transparent !important;
+}
+
+.count {
+    background-color: #245A7C;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.cells-button {
+    background-color: #1E4055 !important;
+}
+
+.cells {
+    background-color: #183140;
+}
+
+div.cells,
+button.btn {
+    border-color: #2A4A5C !important;
+}
+
+button.btn:hover {
+    background-color: #2A4A5C !important;
+}
