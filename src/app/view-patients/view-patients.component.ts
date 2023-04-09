@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViewPatientsComponent implements OnInit {
 
+  public loop = [1,1,1,1,1,1,1,1,1,1,1,1]
+
+
   constructor() { }
 
   ngOnInit(): void {
