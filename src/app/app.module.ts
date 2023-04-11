@@ -6,16 +6,19 @@ import { AppComponent } from './app.component';
 import { ViewPatientsComponent } from './view-patients/view-patients.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
+import { GraphComponent } from './graph/graph.component';
 
 
 const routes: Routes = [
   { path: '', component: ViewPatientsComponent },
+  { path: 'graph', component: GraphComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    ViewPatientsComponent
+    ViewPatientsComponent,
+    GraphComponent
   ],
   imports: [
     BrowserModule,

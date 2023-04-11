@@ -5,6 +5,8 @@ body {
 
 .card {
     background-color: transparent !important;
+    border-radius: 10                                                                           px;
+    
 }
 
 .count {
@@ -33,4 +35,10 @@ button.btn {
 
 button.btn:hover {
     background-color: #2A4A5C !important;
+}
+.nav {
+    background-color: #183140 !important;
+    border-color: #213b49;
+    height: 50px;
+    border-bottom: 1px solid #213b49;
 }

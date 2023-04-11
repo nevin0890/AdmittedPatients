@@ -1,0 +1,41 @@
+.nav {
+    background-color: #183140 !important;
+    border-color: #213b49;
+    height: 50px;
+    border-bottom: 1px solid #213b49;
+}
+
+.arrow {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #213b49 ;
+   
+}
+.title {
+    font-size: 15px;
+    font-family: Roboto;
+    color: white;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.title-right{
+    font-size: 15px;
+    font-family: Roboto;
+    color: white;
+    font-weight: 400;
+    height: 30px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.border-text {
+    height: 30px;
+    border-right: 3px solid #213b49;
+    padding-right: 10px;
+
+    &+span {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
