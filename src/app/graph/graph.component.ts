@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./graph.component.scss']
 })
 export class GraphComponent implements OnInit {
+  public loop=[1,1,1,1,1];
 
   constructor() { }
 
